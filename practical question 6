@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p { color: blue; }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 style="color:red;">Inline CSS</h1>
+<p>Internal CSS</p>
+<h2>External CSS</h2>
+
+</body>
+</html>
