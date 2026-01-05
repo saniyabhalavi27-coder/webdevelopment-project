@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form onsubmit="return validate()">
+<input id="name">
+<input type="submit">
+</form>
+
+<script>
+function validate() {
+  if(name.value == "") {
+    alert("Name required");
+    return false;
+  }
+}
+</script>
+
+</body>
+</html>
