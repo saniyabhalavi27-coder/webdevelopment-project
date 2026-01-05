@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic HTML</title>
+</head>
+<body>
+  <h1>Welcome to HTML</h1>
+  <h2>Text Formatting</h2>
+
+  <p>This is a <b>bold</b> text.</p>
+  <p>This is an <i>italic</i> text.</p>
+  <p>This is <u>underlined</u> text.</p>
+  <p>This is <mark>highlighted</mark> text.</p>
+</body>
+</html>
