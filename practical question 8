@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* { font-family: Arial; }
+#id1 { color: red; }
+.class1 { color: blue; }
+div p { color: green; }
+h1, h2 { background: yellow; }
+</style>
+</head>
+<body>
+
+<h1>Group</h1>
+<h2>Group</h2>
+<p id="id1">ID Selector</p>
+<p class="class1">Class Selector</p>
+<div>
+  <p>Descendant</p>
+</div>
+
+</body>
+</html>
