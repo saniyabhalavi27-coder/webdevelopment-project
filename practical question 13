@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Functions and Scope</title>
+</head>
+<body>
+
+<h2>User Defined Functions and Scope</h2>
+
+<p id="result"></p>
+
+<script>
+  /* GLOBAL VARIABLES */
+  var a = 10;
+  let b = 20;
+  const c = 30;
+
+  /* USER DEFINED FUNCTION */
+  function calculateSum() {
+    let sum = a + b + c;
+    return sum;
+  }
+
+  /* CALLING FUNCTION */
+  let output = calculateSum();
+
+  document.getElementById("result").innerHTML =
+    "Value of var a = " + a + "<br>" +
+    "Value of let b = " + b + "<br>" +
+    "Value of const c = " + c + "<br><br>" +
+    "Sum using user-defined function = " + output;
+</script>
+
+</body>
+</html>
